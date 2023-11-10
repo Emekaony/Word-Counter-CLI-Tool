@@ -1,0 +1,1 @@
+## Simple CLI tool to count number of words, lines, or bytes from the standard input.
