@@ -13,8 +13,9 @@ func main() {
 	fmt.Println(count(os.Stdin))
 }
 
-// an io Reader is a go type (interface) from which u can read data
+// a function that counts command line args by words
 func count(r io.Reader) int {
+	// an io Reader is a go type (interface) from which u can read data
 	// A scanner is used to read text from a Reader (such as files)
 	scanner := bufio.NewScanner(r)
 
